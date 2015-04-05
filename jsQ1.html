@@ -1,0 +1,54 @@
+
+
+<html>
+<head>
+<title>Question1 JavaScript</title>
+</head>
+<body>
+	<h2>
+		Enter something into the field and press the button.
+	</h2>
+	<p>
+		enter anything you want except {A,C,N,U,O}
+		<input type="text" id="inp"><br>
+		<br> <input type="Button" Value="enter"
+			id="submit">
+		<p id="typed"></p>
+		<script>
+document.getElementById("submit").addEventListener("click", function(){
+ 
+		var field = document.querySelector("input").value;
+		
+		if (field.indexOf("A") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("C") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("N") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("U") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("O") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("a") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("c") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("n") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("u") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else if (field.indexOf("o") >= 0)
+			alert("Oops! you cannot type A,C,N,U,O ");
+		else{
+		var val = document.getElementById("inp").value;
+		var type="you typed  " + val ;
+		document.getElementById("typed").innerHTML=type;
+		}
+		document.getElementById("inp").value="";
+		
+});
+
+</script>
+	</p>
+</body>
+</html>
