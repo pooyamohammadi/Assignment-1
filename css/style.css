@@ -1,0 +1,79 @@
+body{
+width:960px;
+margin:0px auto;
+font-family:Times New Roman;
+background-image:url("../img/eight_horns.png")
+}
+#header{
+text-align:center;
+direction:rtl;
+border:2px solid;
+border-color:orange;
+height:207px;
+border-radius:20px;
+background-color:white;
+}
+#content{
+width:670px;
+float:left;
+border:2px solid;
+border-radius:20px;
+margin-top:20px;
+padding:10px;
+border-color:blue;
+}
+#sidebar{
+width:250px;
+float:right;
+border:2px solid;
+border-radius:20px;
+}
+#info{
+text-align:center;
+font-family:arial;
+border:1px solid;
+border-radius:15px;
+background-color:#E8D5F9;
+margin:5px;
+margin-top:0px;
+margin-left:0px;
+box-shadow: 10px 10px 5px #888888;
+}
+#login{
+text-align:center;
+background-color:#DCBFF6;
+border:1px solid;
+border-radius:20px;
+border-color:darkblue;
+padding-bottom:10px
+}
+#login  h3{
+text-align:center;
+font-family:Arial;
+}
+a{
+color:red;
+text-decoration:none;
+}
+a:hover{
+color:green;
+}
+.posts{
+direction:rtl;
+}
+.time{
+direction:ltr;
+}
+h3{
+font-family:georgia;
+}
+.gray{
+background-color:gray;
+}
+#post3{
+float:center;
+}
+table {
+    text-align:center;
+	margin:0px auto
+	}
